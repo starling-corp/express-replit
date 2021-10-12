@@ -11,11 +11,11 @@ express-replit is a module that with  help you to get your [Repl](https://bit.ly
 
 To install it you can do: 
 
-```zsh
+```sh
 ~$ npm install express-replit@latest
 ```
 
-The import it in your file by using:
+Then import it in your file by using:
 
 ```js
 const { express } = require('express-replit')
