@@ -23,7 +23,8 @@ var port = 3000 // you can set the port you want ex: 5000
 var ready = `Ready on port: ${port}` // you can custom this too
 var text = `The server succesdfully running!` // this can be customized too
 
-const app = new express(port, ready, text)
+const app = new express(); // you can set any name you want intead of 'app'
+app(port, ready, text); // and type the name you wanted here (replacing 'app' by the name of the const)
 ```
 
 ## Credits
