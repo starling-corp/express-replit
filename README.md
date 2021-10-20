@@ -5,7 +5,7 @@
 [Credits](#Credits)
 
 ## About
-express-replit is a module that with  help you to get your [Repl](https://bit.ly/replithome)
+express-replit is a module that with help you to get your [Repl](https://bit.ly/replithome) always on when used with a pinger (like: uptime_robot).
 
 ## Installation
 
@@ -26,6 +26,11 @@ var text = `The server succesdfully running!` // this can be customized too
 const app = new express(); // you can set any name you want intead of 'app'
 app(port, ready, text); // and type the name you wanted here (replacing 'app' by the name of the const)
 ```
+
+In the pinger select add a new monitor then choose ```ping```, in the url field enter your repl url and in the name field enter a name for your monitor. And set the interval time (time when the pinger go ping your repl) to 29 minutes.
+
+
+Hope this help you.
 
 ## Credits
 
